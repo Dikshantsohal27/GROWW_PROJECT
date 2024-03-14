@@ -1,0 +1,645 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.grow_top{
+    width:100%;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.grow_logo{
+    width: 369px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+}
+.grow_logo img{
+    width: 148px;
+    height: 40px;
+    cursor: pointer;
+
+    /* margin-left: 200px; */
+}
+.grow_search{
+    /* border: 1px solid #ccc; */
+    width: 443px;
+    height: 41px;
+    display: flex;
+    align-content: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px rgb(148,148,148,0.2),
+    2px 2px 5px rgba(148,148,148,0.2);
+}
+.grow_search input{
+    margin: 0px 10px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.grow_search i{
+    margin-top: 12px;
+    font-size: 15px;
+    color: rgb(148,148,148);
+}
+.grow_login{
+    width: 246px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+}
+.grow_login button{
+background-color: #00d09c;
+border: none;
+width:175px;
+height: 45px;
+color: white;
+font-size: 18px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.grow_login button:hover{
+    background-color: #04c595;
+
+}
+
+/*********************middle part**********************************/
+.grow_started_container{
+width: 362px;
+height: 55px;
+}
+.grow_startedbutton{
+    width: 200px;
+    height: 55px;
+    background-color: #00d09c;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.investin{
+    display: flex;
+    font-size: 38px;
+    color: #44475b;
+}
+.slidder{
+    text-indent: 15px;
+    height: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+}
+.slidder span{
+    display: flex;
+    flex-direction: column;
+    animation: verticalSlide 7s infinite;
+    animation-delay:3s ;
+    position: relative;
+    height: 80px;
+}
+/**********animation********************/
+@keyframes verticalSlide{
+    0%{
+        bottom:0;
+    }
+    17%{
+        bottom:-70px;
+    }
+    34%{
+        bottom:-140px;
+    }
+    68%{
+        bottom:-210px;
+    }
+    85%{
+        bottom:-280px;
+    }
+    100%{
+        bottom:-350px;
+    }
+}
+/**********color to slidder**************/
+.stocks_color{
+    color: #5367ff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.mutualfunds_color{
+    color: #00d09c;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.futureoptions_color{
+    color:#ffb61b ;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.usstocks_color{
+    color: #eb5b3c;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.ipo_color{
+    color: #d2ab66;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.fds_color{
+    color: #5367ff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+/******************************/
+.grow_middle_col2{
+    display: flex;
+    animation: BottomToTopAnimation 2s linear;
+}
+.grow_middle_col2 a{
+    width: 180px;
+    height: 140px;
+    box-shadow: 3px 6px 24px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #44475b;
+    background-color: #fff;
+}
+.middle_part{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin: 30px 100px;
+}
+.grow_middle_left_text{
+    margin: 30px 0px;
+    font-size: 18px;
+    color: #44475b;
+    letter-spacing: 0.5px;
+    width: 400px;
+    line-height: 30px;
+}
+/*****************OUR PRODUCT***********************/
+.growproduct{
+    margin: 20px 100px;
+}
+.ourproduct_text{
+    background-color: #ecedef;
+    color: #44475b;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    min-width: 50px;
+    width: fit-content;
+}
+
+.yourmoney_yourchoice_text{
+    font-size: 35px;
+    color: #44475b;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    margin: 30px 0px 70px 0px;
+}
+.growproduct_navbar{
+    display: flex;
+}
+.growproduct_stockdetails,
+.growproduct_mutualfundsdetails,
+.growproduct_usstocksdetails,
+.growproduct_fds
+    {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 55px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.growproduct_stockdetails >div,
+.growproduct_mutualfundsdetails >div,
+.growproduct_usstocksdetails >div,
+.growproduct_fds >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #44475b;
+    margin: 0px 10px;
+}
+/********************SVG*********************/
+.growproduct_stockdetails >svg,
+.growproduct_mutualfundsdetails >svg,
+.growproduct_usstocksdetails >svg,
+.growproduct_fds >svg{
+    width: 25px;
+    height: 30px;
+    filter: grayscale(1);
+    padding: 10px;
+    border-radius: 30px;
+}
+/******************our product hover effect**********************/
+/*.grow_loginregister button:hover{
+    background-color: #04c595;
+} 
+
+.growproduct_stockdetails:hover svg{
+    filter : brightness();
+    background-color: #e5faf5;
+}
+.growproduct_mutualfundsdetails:hover svg{
+    filter: brightness();
+    background-color: #eef0ff;
+    
+}
+.growproduct_usstocksdetails:hover svg{
+    filter:brightness();
+    background-color: #fae9e5;
+    
+}
+.growproduct_fds:hover svg{
+    filter:brightness();
+    background-color: #fae9e5;
+
+}
+.viewallproduct_container .text:hover{
+    text-decoration: underline;
+}*/
+
+/*************************/
+.growproduct_display{
+    height: 355px;
+    margin: 100px 0px;
+}
+.zerotext{
+    font-size: 80px;
+    font-weight: 900;
+    color:#323441;
+    letter-spacing: 1px;
+}
+.growproduct_stockdetails_display_right h2{
+    font-size: 28px;
+    color: #323441;
+}
+.stocksdeatils_text{
+    font-size: 18px;
+    color: #7c7e8c;
+    line-height: 26px;
+    width: 400px;
+    margin: 20px 0px;
+}
+.growproduct_button_createaccountfree button{
+    width: 205px;
+    height: 45px;
+    color: white;
+    background:#00d09c;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.growproduct_stockdetails_display{
+    display: flex;
+    justify-content: space-evenly;
+}
+.viewallproduct_container{
+display: flex;
+justify-content: center;
+align-items: center;
+margin:30px 0px;
+}
+
+.viewallproduct_container .text{
+    color: #00d09c;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* .navbarunderactive{
+    height: 3px;
+    width: 240px;
+    background-color: #00d09c;
+    position:relative;
+    transform: translate(-850px,60px);
+    transition: 1s;
+} */
+/**********js class and obj *********/
+.StockActive.Active1{
+    filter: brightness();
+    background-color: #e5faf5;
+}
+.MutualFundActive.Active2{
+    filter: brightness();
+    background-color: #e5faf5;
+    padding: 10px;
+}
+/* .UsStockActive.Active3{
+    filter: brightness();
+    background-color: #e5faf5;
+}
+.FDActive.Active4{
+    filter: brightness();
+    background-color: #e5faf5;
+} */
+/************************************/
+.grow_trustbycontainer{
+    width: auto;
+    height: 600px;
+    background-color: #5367ff;
+    color: #ffff;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+}
+.grow_trustbycontainer_image{
+    width: 1600px;
+    height: 600px;
+    /* background-color: #5367ff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(WhatsApp\ Image\ 2024-02-29\ at\ 11.51.14\ AM.jpeg);
+}
+.growtrustedbyleftheading{
+    font-size: 70px;
+    margin-top: 20px;
+}
+.growtrustedbyleft_text{
+    font-size: 25px;
+    width: 560px;
+    margin: 50px 0px;
+}
+.growtrustedbyleft{
+    width: 600px;
+}
+.growtrustedbyright{
+    width: 500px;
+}
+.growlearningimage{
+    width: 350px;
+    height: 272px;
+    margin: 20px;
+}
+.growlearningimage img{
+    width: 350px;
+    height: 275px;
+    border-radius: 10px;
+}
+.growlearningcontainer{
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.growlearningsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.growlearningheading{
+    font-size: 35px;
+    font-weight: 900;
+    margin:60px 0px;
+    color:#323441;
+}
+.growlearningcontainer{
+    font-size: 25px;
+    width: 350px;
+    text-align: center;
+    margin: 40px 0px;
+}
+.growlearningcontainer a{
+    text-decoration: none;
+    color: #323441;
+    font-weight:500 ;
+}
+applist img{
+    width: 255px;
+    height: 360px;
+}
+.InvestAnyWhereContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.InvestAnyWhereContainer_Left_Text{
+    font-size: 50px;
+    width: 390px;
+    color:#323441;
+}
+.InvestAnyWhereContainer_Left p{
+    color:#7c7e8c;
+    font-size: 20px;
+    margin: 30px 0px;
+    width: 390px;
+}
+.ListContainer_List{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+}
+.ListContainer_Details_Heading_Description{
+    font-size: 18px;
+    margin: 20px 0px;
+    width: 250px;
+    color:#7c7e8c;
+}
+.ListContainer_Details_Heading{
+    font-size: 20px;
+    font-weight: 900;
+}
+.ListContainer_Details{
+    margin-left:40px;
+}
+.InvestAnyWhereContainer_Right{
+    display: flex;
+    align-items: center;
+}
+.applist{
+    margin:20px;
+}
+.FooterSection{
+    background-color: #1e2232;
+    width: 100% auto;
+    height: 400px;
+    color:white;
+    padding-top:40px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.FooterSection_Address1{
+    margin-top:25px;
+}
+.FooterSection_Address1,
+.FooterSection_Address2,
+.FooterSection_Address3{
+    font-size: 18px;
+}
+
+.FooterSection_Product h2,
+.FooterSection_Groww h2,
+.FooterSection_QuickLink h2{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.FooterSection_ProductList,
+.FooterSection_GrowwList,
+.FooterSection_QuickLinkList{
+    font-size: 18px;
+    line-height: 28px;
+}
+.FooterSection_ContactSocialMedia .ContactUs{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.SocialMedia_icon{
+    margin: 5px;
+}
+
+.horizontalLine{
+    height: 0.3px;
+    width: 85%;
+    background-color:#7c7e8c;
+    margin:30px 100px;
+}
+.GrowwApplicationDownload a{
+    margin-right:20px;
+}
+.GrowwFooterlast{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin:0px 100px;
+}
+
+.popup {
+    
+    justify-content: center;
+    align-items: center;
+    /* transform: translate(-50%, -50%); */
+    background-color: #04c595;
+    /* background-color: white; */
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    /* Use flexbox to align content */
+    max-width: 40vw;
+    /* Set maximum width for the popup */
+    font-family: cursive;
+    /* height:20rem; */
+
+
+    
+        position: fixed; /* Position fixed to keep it in the viewport */
+        top: 50%; /* Position the top of the popup at the vertical center of the viewport */
+        left: 50%; /* Position the left of the popup at the horizontal center of the viewport */
+        transform: translate(-50%, -50%); /* Move the popup back by half of its own width and height to center it */
+        z-index: 9999; /* Ensure it's on top of other elements */
+       
+        
+        
+        box-shadow: 0px 0px 10px 0px #ccc;
+    
+    
+
+    
+
+
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 20px;
+    /* Add some space between left and right content */
+    /* background-color: rgba(89, 159, 89, 0.667); */
+    width: 50vw;
+    color: white;
+    margin: 2rem;
+    background-color: #04c595;
+
+}
+
+.right-content {
+    flex: 1;
+    /* Use 1/2 of the space */
+    background-color: white;
+    padding: 1rem;
+}
+
+.popup-form {
+    text-align: center;
+}
+
+.popup-form button {
+    margin-top: 10px;
+    /* Add some space between buttons */
+}
+
+.close {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.right-content button {
+    /* border: none; */
+    background: transparent;
+    padding: 1rem;
+
+    width: 15rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.right-content button:hover {
+    border: 1px solid black;
+}
+
+.right-content input[type="email"] {
+    width: 15rem;
+    border: none;
+    border-bottom:1px solid black ;
+    /* padding: 1.9rem; */
+}
+.right-content input[type="email"]:hover{
+    border: none;
+    border-bottom: 1px solid #04c595 ;
+}
+.right-content input[type="email"]::before{
+    border: none;
+
+}
+.right-content input[type="email"]::after{
+    border: none;
+}
+.google-img{
+    width: 1.6rem;
+    margin-right: .3rem;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    
+}

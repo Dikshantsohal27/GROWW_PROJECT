@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hovereffect.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>GROWW</title>
+
+</head>
+
+<body id="Indexbody">
+    <div class="grow_top">
+        <div class="grow_logo">
+            <img src="https://storage.googleapis.com/groww-assets/web-assets/img/website-logo/groww-logo-light.svg"
+                alt="groww">
+        </div>
+        <div class="grow_search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="What are you looking for today?">
+            <!-- magnifying glass -->
+        </div>
+        <div class="grow_login">
+            <button class="btn" id="openPopup" onclick="Login_pop()">Login/Register</button>
+        </div>
+    </div>
+    <!-- middle part -->
+    <div class="middle_part">
+        <div class="grow_middle_left">
+            <h2 class="investin">
+                Invest in
+                <div class="slidder">
+                    <span class="stocks_color">Stocks</span>
+                    <span class="mutualfunds_color">Mutual Funds</span>
+                    <span class="futureoptions_color">Future & Options</span>
+                    <span class="usstocks_color">Us Stocks</span>
+                    <span class="ipo_color">IPO</span>
+                    <span class="fds_color">FDs</span>
+
+                </div>
+            </h2>
+            <div class="grow_middle_left_text">
+                Trusted by <span style="font-weight: bold;">Millions</span>of Indians. Start investing today.
+            </div>
+
+            <div class="grow_started_container">
+                <button class="grow_startedbutton">Get Started</button>
+            </div>
+        </div>
+        <div class="grow_middle_right">
+
+            <div class="grow_middle_col2">
+                <a class="mutualfunds" href="#">
+                    <!-- <img src="https://assets-netstorage.growwmf.in/scheme_images/VD.svg" alt="mutual funds"  width="49px" height="49px"> -->
+                    <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="MutualFundActive">
+                        <rect x="20.1997" y="29" width="20.8" height="6.4" fill="#00D09C" />
+                        <rect x="20.7891" y="21" width="20.2105" height="6.4" fill="#00D09C" />
+                        <path
+                            d="M20.7891 14C20.7891 13.4477 21.2368 13 21.7891 13H39.9996C40.5519 13 40.9996 13.4477 40.9996 14V19.4H20.7891V14Z"
+                            fill="#00D09C" />
+                        <path
+                            d="M17.4211 35.0628C22.0719 35.0628 25.8421 31.2926 25.8421 26.6418C25.8421 21.9909 22.0719 18.2207 17.4211 18.2207C12.7702 18.2207 9 21.9909 9 26.6418C9 31.2926 12.7702 35.0628 17.4211 35.0628Z"
+                            fill="#E6FBF6" />
+                        <path
+                            d="M17.4214 33.379C21.1421 33.379 24.1583 30.3628 24.1583 26.6421C24.1583 22.9215 21.1421 19.9053 17.4214 19.9053C13.7008 19.9053 10.6846 22.9215 10.6846 26.6421C10.6846 30.3628 13.7008 33.379 17.4214 33.379Z"
+                            fill="#00D09C" />
+                    </svg>
+                    <h3>Mutual Funds</h3>
+                </a>
+
+                <a class="Stocks" href="#">
+                    <!-- <img src="https://assets-netstorage.growwmf.in/scheme_images/VD.svg" alt="" width="49px" height="49px"> -->
+                    <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="StockActive">
+                        <path
+                            d="M12.25 34.485L21.25 25.4625L27.25 31.4625L40 17.1225L37.885 15L27.25 26.9625L21.25 20.9625L10 32.235L12.25 34.485Z"
+                            fill="#5367FF" stroke="#5367FF" stroke-width="0.75" />
+                    </svg>
+                    <h3>Stocks</h3>
+                </a>
+            </div>
+
+            <div class="grow_middle_col2">
+                <a class="FutureOptions" href="#">
+                    <img src="https://assets-netstorage.growwmf.in/scheme_images/VD.svg" alt="" width="49px"
+                        height="49px">
+                    <h3>Future & options</h3>
+                </a>
+
+                <a class="usStocks" href="#">
+                    <!-- <img src="https://assets-netstorage.growwmf.in/scheme_images/VD.svg" alt="" width="49px" height="49px"> -->
+                    <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="UsStockActive">
+                        <path
+                            d="M27.0504 8.08417L22.4188 8.0943L22.4274 12.0074L15.9763 12.0215L16.0087 26.8124L28.9107 26.7676L28.9207 31.3565L16.0187 31.3847L16.0298 36.4827L22.4808 36.4686L22.4894 40.3817L27.1209 40.3716L27.1124 36.4585L33.5634 36.4444L33.5311 21.6535L20.6291 21.6983L20.619 17.1094L33.5211 17.0812L33.5099 11.9832L27.0589 11.9973L27.0504 8.08417Z"
+                            fill="#FF585D" />
+                    </svg>
+                    <h3>Us Stocks</h3>
+                </a>
+            </div>
+
+            <div class="grow_middle_col2">
+                <a class="ipo" href="#">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODsaNm1h_ifSOPD7WjnCVQij2pZmXluVXcUJFcbfd0w&s" alt="" width="49px"
+                        height="49px">
+                    <h3>IPO</h3>
+                </a>
+
+                <a class="fixedDeposite" href="#">
+                    <!-- <img src="https://assets-netstorage.growwmf.in/scheme_images/VD.svg" alt="" width="49px" height="49px"> -->
+
+                    <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="FDActive">
+                        <path
+                            d="M10.0403 21.5478L10.0328 18.0885L24.6818 9.98454L39.366 18.0243L39.3736 21.4837L35.707 21.4917L35.7397 36.4823L32.0731 36.4903L32.0403 21.4997L26.8022 21.5112L26.835 36.5018L22.6445 36.5109L22.6117 21.5203L17.3737 21.5318L17.4064 36.5224L13.216 36.5315L13.1832 21.541L10.0403 21.5478Z"
+                            fill="#1DA1F2" />
+                        <rect x="10.0708" y="35.3857" width="29.3333" height="4.6125"
+                            transform="rotate(-0.125251 10.0708 35.3857)" fill="#1DA1F2" />
+                    </svg>
+                    <h3>Fixed Deposite</h3>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- our product -->
+    <div class="growproduct">
+        <div class="ourproduct_text">OUR PRODUCTS</div>
+        <h2 class="yourmoney_yourchoice_text">Your Money. Your Choice.</h2>
+
+        <div class="growproduct_navbar">
+            <div class="growproduct_stockdetails">
+                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="StockActive">
+                    <path
+                        d="M12.25 34.485L21.25 25.4625L27.25 31.4625L40 17.1225L37.885 15L27.25 26.9625L21.25 20.9625L10 32.235L12.25 34.485Z"
+                        fill="#5367FF" stroke="#5367FF" stroke-width="0.75" />
+                </svg>
+                <div class="growproduct_stocktext">stocks</div>
+            </div>
+
+            <div class="growproduct_mutualfundsdetails">
+                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="MutualFundActive">
+                    <rect x="20.1997" y="29" width="20.8" height="6.4" fill="#00D09C" />
+                    <rect x="20.7891" y="21" width="20.2105" height="6.4" fill="#00D09C" />
+                    <path
+                        d="M20.7891 14C20.7891 13.4477 21.2368 13 21.7891 13H39.9996C40.5519 13 40.9996 13.4477 40.9996 14V19.4H20.7891V14Z"
+                        fill="#00D09C" />
+                    <path
+                        d="M17.4211 35.0628C22.0719 35.0628 25.8421 31.2926 25.8421 26.6418C25.8421 21.9909 22.0719 18.2207 17.4211 18.2207C12.7702 18.2207 9 21.9909 9 26.6418C9 31.2926 12.7702 35.0628 17.4211 35.0628Z"
+                        fill="#E6FBF6" />
+                    <path
+                        d="M17.4214 33.379C21.1421 33.379 24.1583 30.3628 24.1583 26.6421C24.1583 22.9215 21.1421 19.9053 17.4214 19.9053C13.7008 19.9053 10.6846 22.9215 10.6846 26.6421C10.6846 30.3628 13.7008 33.379 17.4214 33.379Z"
+                        fill="#00D09C" />
+                </svg>
+                <div class="growproduct_mutualfundstext">mutual funds</div>
+            </div>
+
+            <!-- <div class="growproduct_usstocksdetails">
+                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="UsStockActive">
+                    <path
+                        d="M27.0504 8.08417L22.4188 8.0943L22.4274 12.0074L15.9763 12.0215L16.0087 26.8124L28.9107 26.7676L28.9207 31.3565L16.0187 31.3847L16.0298 36.4827L22.4808 36.4686L22.4894 40.3817L27.1209 40.3716L27.1124 36.4585L33.5634 36.4444L33.5311 21.6535L20.6291 21.6983L20.619 17.1094L33.5211 17.0812L33.5099 11.9832L27.0589 11.9973L27.0504 8.08417Z"
+                        fill="#FF585D" />
+                </svg>
+                <div class="growproduct_usstockstext">us stocks</div>
+            </div> -->
+
+            <!-- <div class="growproduct_fds">
+                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="FDActive">
+                    <path
+                        d="M10.0403 21.5478L10.0328 18.0885L24.6818 9.98454L39.366 18.0243L39.3736 21.4837L35.707 21.4917L35.7397 36.4823L32.0731 36.4903L32.0403 21.4997L26.8022 21.5112L26.835 36.5018L22.6445 36.5109L22.6117 21.5203L17.3737 21.5318L17.4064 36.5224L13.216 36.5315L13.1832 21.541L10.0403 21.5478Z"
+                        fill="#1DA1F2" />
+                    <rect x="10.0708" y="35.3857" width="29.3333" height="4.6125"
+                        transform="rotate(-0.125251 10.0708 35.3857)" fill="#1DA1F2" />
+                </svg>
+                <div class="growproduct_fdstext">FDs</div>
+            </div> -->
+
+            <span class="navbarunderactive"></span>
+        </div>
+
+
+        <div class="growproduct_display">
+
+            <div class="growproduct_stockdetails_display">
+                <div class="growproduct_stockdetails_display_left">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-dfd41c218c8467d6b193d1b19a9f6a81" alt=""
+                        width="562px" height="355px" class="changeimageaccordingnavigation">
+                </div>
+                <div class="growproduct_stockdetails_display_right">
+
+                    <h2><span class="zerotext">Zero</span><span class="insidecontent">account charges</span></h2>
+                    <div class="stocksdetails_text">
+                        You don't have to pay a single rupee for opening a stocks
+                        account or account maintenance.
+                    </div>
+                    <div class="growproduct_button_createaccountfree">
+                        <button>Create Account Free</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- <div class="viewallproduct_container">
+            <a class="text" href="#">View All Product
+        </div> -->
+        <!-- <i class="fa-solid fa-arrow-right"></i> -->
+        </a>
+    </div>
+
+    <div class="grow_trustbycontainer">
+        <div class="grow_trustbycontainer_image">
+            <div class="growtrustedbyleft">
+                <h2 class="growtrustedbyleftheading">Trusted by <br>20 million+ users</h2>
+                <div class="growtrustedbyleft_text">
+                    our cutting-edge technology ensure that all ypur information remains fully encrypted and secure.
+                </div>
+            </div>
+            <div class="growtrustedbyright"></div>
+        </div>
+    </div>
+<!-- keep learning keep growing -->
+    <div class="growlearningsection">
+        <h2 class="growlearningheading">Keep Learning. Keep Growing.</h2>
+        <div class="growlearningcontainer">
+            <a href="" class="howtoselect">
+                <div class="growlearningimage">
+                    <img src="https://wp-asset.groww.in/wp-content/uploads/2020/07/29155710/For-blog_Role-of-credit-Ratings-02.jpg" alt="">
+                </div>
+                <div class="growlearningdetail">
+                    How to select/pick stocks for intraday
+                </div>
+            </a>
+            <a href="" class="howtoselect">
+                <div class="growlearningimage">
+                    <img src="https://wp-asset.groww.in/wp-content/uploads/2020/07/21191901/2-for-blog_value-of-a-stock-04-min.png" alt="">
+                </div>
+                <div class="growlearningdetail">
+                    Beginners guide to mutual funds
+                </div>
+            </a>
+            <a href="" class="howtoselect">
+                <div class="growlearningimage">
+                    <img src="https://wp-asset.groww.in/wp-content/uploads/2020/07/11203020/For-blog_Monitor-Stocks-02.jpg" alt="">
+                </div>
+                <div class="growlearningdetail">
+                    How to diversify in the time of market values.
+                </div>
+            </a>
+            <!-- https://wp-asset.groww.in/wp-content/uploads/2020/07/17163210/porters-five-forces.jpg -->
+            <a href="" class="beginnerguide"></a>
+            <a href="" class="howtodrive"></a>
+        </div>
+
+        <!-- <div class="growlearningmoresection">
+            <a href="">view all article</a>
+        </div> -->
+    </div>
+
+<div class="InvestAnyWhereContainer">
+    <div class="InvestAnyWhereContainer_Left">
+        <h2 class="InvestAnyWhereContainer_Left_Text">Invest anywhere, anytime.</h2>
+        <p>Don’t worry about which device to use. Because we’re in every one of them.</p>
+
+        <div class="ListContainer">
+            <div class="ListContainer_List">
+                <!-- <div class="ListContainer_Icon">
+                    <img src="./imageList/dash.a7e0c55c.svg">
+                </div> -->
+                <div class="ListContainer_Details">
+                    <div class="ListContainer_Details_Heading">Stay on top of everything</div>
+                    <div class="ListContainer_Details_Heading_Description">Keep track of your investments at anytime with Groww.</div>
+                </div>
+            </div>
+            <div class="ListContainer_List">
+                <div class="ListContainer_Icon">
+                    <img src="">
+                </div>
+                <div class="ListContainer_Details">
+                    <div class="ListContainer_Details_Heading">Always in Sync</div>
+                    <div class="ListContainer_Details_Heading_Description">Groww will take care of synchronizing data so you can focus on investing.</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="InvestAnyWhereContainer_Right">
+        <div class="InvestAnyWhereContainer_Right_1">
+            <div class="applist">
+                <img src="https://assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/build/client/images/ios.0a99dcbb.png" height="280px" width="220px">
+            </div>
+            <div class="applist">
+                <img src="https://assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/build/client/images/android.6dfb12ca.png" height="280px" width="220px">
+            </div>
+        </div>
+        <div class="InvestAnyWhereContainer_Right_1">
+            <div class="applist">
+                <img src="https://raw.githubusercontent.com/IsAmitprajapati/Groww-Website-Clone/main/imageList/applicationImage/web.png" height="280px" width="220px">
+            </div>
+        </div>      
+    </div>
+</div>
+
+<div class="FooterSection">
+    <div class="row">
+        <div class="GrowwCompanyDetails">
+            <img src="https://storage.googleapis.com/groww-assets/web-assets/img/website-logo/groww-logo-light.svg"
+            alt="groww"  width="150px" height="50">
+            <p class="FooterSection_Address1">No.11, 2nd floor, 80 FT Road</p>
+            <p class="FooterSection_Address2">4th Block, S.T Bed, Koramangala</p>
+            <p class="FooterSection_Address3">Bengaluru – 560034</p>
+            
+
+            <!--using the image available on the -->
+            <div class="FooterSection_ContactSocialMedia">
+                <div class="ContactUs">Contact Us</div>
+                <a href="#" class="SocialMedia_icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/640px-Facebook_icon_2013.svg.png" width="40px"  height="30px"></a>
+                <a href="#" class="SocialMedia_icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE1dixU3a4h-e5CRLLjF-oFwT96dAazn3R4Weq79TiNw&s" height="30px" width="40px"></a>
+                <a href="#" class="SocialMedia_icon"><img src="https://e1.pngegg.com/pngimages/18/689/png-clipart-ios-7-icons-updated-twitter-twitter-icon-thumbnail.png"height="30px" width="40px"></a>
+                <a href="#" class="SocialMedia_icon"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"height="30px" width="40px"></a>
+                <a href="#" class="SocialMedia_icon"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"height="30px" width="40px"></a>
+            </div>
+        </div>
+        <div class="FooterSection_Product">
+            <h2>PRODUCTS</h2>
+            <div class="FooterSection_ProductList">Stocks</div>
+            <div class="FooterSection_ProductList">Futures & Options</div>
+            <div class="FooterSection_ProductList">Mutual Funds</div>
+            <div class="FooterSection_ProductList">Fixed Deposit</div>
+            <div class="FooterSection_ProductList">US Stocks</div>
+        </div>
+        <div class="FooterSection_Groww">
+            <h2>GROWW</h2>
+            <div class="FooterSection_GrowwList">About Us</div>
+            <div class="FooterSection_GrowwList">Pricing</div>
+            <div class="FooterSection_GrowwList">Blog</div>
+            <div class="FooterSection_GrowwList">Media & Press</div>
+            <div class="FooterSection_GrowwList">Carrees</div>
+            <div class="FooterSection_GrowwList">Help & Support</div>
+        </div>
+        <div class="FooterSection_QuickLink">
+            <h2>QUICK LINKS</h2>
+            <div class="FooterSection_QuickLinkList">AMC Mutual Funds</div>
+            <div class="FooterSection_QuickLinkList">Calculators</div>
+            <div class="FooterSection_QuickLinkList">Glossary</div>
+            <div class="FooterSection_QuickLinkList">Open Demat Account</div>
+            <div class="FooterSection_QuickLinkList">Groww Digest</div>
+            <div class="FooterSection_QuickLinkList">Groww Academy</div>
+            <div class="FooterSection_QuickLinkList">Sitemap</div>
+        </div>
+    </div>
+    <div class="horizontalLine"></div>
+
+        <div class="GrowwFooterlast">
+            <div class="GrowwCopyRight">
+                © 2016-2024 Groww. All right reserved, Built with 💖 in india
+            </div>
+            <div class="GrowwApplicationDownload">
+                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkwNLHaSlVDdGka5okYi_N-1jX4FsbiFGMrYf5DZbN&s" width="120px" height="50px"></a>
+                <a href="#"><img src="https://w7.pngwing.com/pngs/34/523/png-transparent-app-store-apple-logo-apple-text-logo-video-game.png" width="120px" height="50px"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

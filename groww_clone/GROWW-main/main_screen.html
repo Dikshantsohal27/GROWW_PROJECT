@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="main_screen.css">
+    <script src="main_screen.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="first-header">
+                <img src="./images/Groww_app_logo.png" alt="">
+
+                <a href="#">Explore</a>
+                <a href="">Investments</a>
+            </div>
+            <div class="input-bar">
+
+                <input type="text" name="" id="" placeholder="What are you looking for today? ">
+            </div>
+            <div class="icons">
+                <span class="material-symbols-outlined">
+                    notifications
+                </span>
+                <span class="material-symbols-outlined">
+                    wallet
+                </span>
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+                <span class="material-symbols-outlined">
+                    person
+                </span>
+
+            </div>
+        </nav>
+        <br><br>
+        <div class="last-header">
+            <a href="#" class="links">Stocks</a>
+            <a href="#" class="links">Mutul Funds</a>
+        </div>
+        <br>
+    </header>
+    <hr>
+    <div class="container">
+        <div class="left-container">
+            <div class="left-container-header" style="margin-top: 50px;">
+                <p style="font-size:medium;">Index</p>
+                <a href="#" style="font-size:medium;">All Indices</a>
+            </div>
+            <div class="left-container-content-part1">
+                <div class="boxes" id="box1">
+                    <p>BITCOIN</p>
+                    <br>
+                    <p class="ask"></p> <br> <!-- Add this line -->
+    <p class="ask-size"></p>
+                </div>
+                <div class="boxes" id="box2">
+                    <p>BNB</p>
+                    <br>
+                    <p class="ask"></p> <br> <!-- Add this line -->
+    <p class="ask-size"></p>
+                </div>
+                <div class="boxes" id="box3">
+                    <p>XRP</p>
+                    <br>
+                    <p class="ask"></p> <br> <!-- Add this line -->
+    <p class="ask-size"></p>
+                </div>
+            </div>
+           
+            <br><br><br><br>  
+
+            <h3 class="heading-left-side" style="font-size:large;">Most Bought On Groww</h3>
+            <div class="left-container-content-part2">
+                <div class="boxes" id="box1">
+                    <img src="./stockImages/NHPC.png" alt="" class="left-container-part2-img">
+                    <p>Nhpc</p> <br>
+                    <p>&#8377 90.20</p>
+                    <p class="loss">-2.00 (2.17%)</p>
+                </div>
+
+                <div class="boxes" id="box2">
+                    <img src="./stockImages/VODAFON.png" alt="" class="left-container-part2-img">
+                    <p>Vodafone</p> <br>
+                    <p>&#8377 15.85</p>
+                    <p class="loss">-1.00 (2.17%)</p>
+                </div>
+                <div class="boxes" id="box3">
+                    <img src="./stockImages/yesbank.png" alt="" class="left-container-part2-img">
+                    <p>Yes Bank</p> <br>
+                    <p>&#8377 25.10</p>
+                    <p class="loss">-0.15 (0.59%)</p>
+                </div>
+                <div class="boxes" id="box4">
+                    <img src="./stockImages/rewENERGY.jpg" alt="" class="left-container-part2-img">
+                    <p>Indian Ren.</p> <br>
+                    <p>&#8377 15.85</p>
+                    <p class="profit">-1.00 (2.17%)</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="right-container">
+            <div class="right-container-header">
+                <p>Your InvestMents</p>
+                <a href="#" class="to-be-green">
+                    <p>DashBoard</p>
+                </a>
+            </div>
+
+            <div class="right-container-part1">
+                <div class="box">
+                    <h3 class="loss">&#8377-41 <br> <span style="color: black;"> Total returns</span></h3>
+                    <h3>&#8377 788 <br> Current Value</h3>
+                </div>
+            </div> -->
+<!-- 
+            <div class="right-container-part2">
+                <h3 style="font-size: 1.3rem;">All WatchLists</h3>
+                <p class="to-be-green" style="font-size: 1.3rem;">View all</p>
+            </div> -->
+          
+           
+
+<div class="right-container-part3" style="margin-top: 100px;">
+    <h4 id="watchlist-header">My WatchList <p>48 items</p></h4>
+    <span class="material-symbols-outlined" id="expand-arrow">expand_more</span>
+    <ul class="item-list" id="watchlist-dropdown">
+                    <li>
+                        <div class="box">
+                            <a href="#">Urja Global</a>
+                            <p>&#8377 23.55 </p>
+                            <p class="loss">(4.88%)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <a href="#">Urja Global</a>
+                            <p>&#8377 23.55 </p>
+                            <p class="loss">(4.88%)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <a href="#">Urja Global</a>
+                            <p>&#8377 23.55 </p>
+                            <p class="loss">(4.88%)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <a href="#">Urja Global</a>
+                            <p>&#8377 23.55 </p>
+                            <p class="loss">(4.88%)</p>
+                        </div>
+                    </li>
+                  
+                   
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <section class="Products-tools">
+        <h2 style="font-size: large; margin-left: 30px;">Products and tools</h2>
+        <div class="product-tools-container">
+            <div class="boxes" style="margin-left: 30px;">
+                <img src="./products and tools/FANDO.jpg" alt="">
+                <p>F&O</p>
+            </div>
+            <div class="boxes">
+                <img src="./products and tools/FANDO.jpg" alt="">
+                <p>F&O</p>
+            </div>
+            <div class="boxes">
+                <img src="./products and tools/FANDO.jpg" alt="">
+                <p>F&O</p>
+            </div>
+            <div class="boxes">
+                <img src="./products and tools/FANDO.jpg" alt="">
+                <p>F&O</p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="top-gainers" >
+        <div class="top-gainers-header">
+            <h2 style="font-size: large; margin-left: 30px;">Top Gainers</h2>
+        </div>
+        <div class="top-gainers-nav-bar">
+            <a class="btn links">Large</a>
+            <a class="btn links">Mid</a>
+            <a class="btn links">Small</a>
+        </div>
+        <div class="top-gainers-content">
+            <div class="boxes" id="box1">
+                <img src="./stockImages/NHPC.png" alt="" class="left-container-part2-img">
+                <p>Nhpc</p> <br>
+                <p>&#8377 90.20</p>
+                <p class="loss">-2.00 (2.17%)</p>
+            </div>
+
+            <div class="boxes" id="box2">
+                <img src="./stockImages/VODAFON.png" alt="" class="left-container-part2-img">
+                <p>Vodafone</p> <br>
+                <p>&#8377 15.85</p>
+                <p class="loss">-1.00 (2.17%)</p>
+            </div>
+            <div class="boxes" id="box3">
+                <img src="./stockImages/yesbank.png" alt="" class="left-container-part2-img">
+                <p>Yes Bank</p> <br>
+                <p>&#8377 25.10</p>
+                <p class="loss">-0.15 (0.59%)</p>
+            </div>
+            <div class="boxes" id="box4">
+                <img src="./stockImages/rewENERGY.jpg" alt="" class="left-container-part2-img">
+                <p>Indian Ren.</p> <br>
+                <p>&#8377 15.85</p>
+                <p class="profit">-1.00 (2.17%)</p>
+            </div>
+        </div>
+    </section>
+    <section class="stocks-in-news">
+        <h3  style="font-size: large; margin-left: 30px;">Stocks In News</h3>
+        <div class="stocks-in-news-content">
+            <div class="boxes" id="box1">
+                <img src="./stockImages/NHPC.png" alt="" class="left-container-part2-img">
+                <p>Nhpc</p> <br>
+                <p>&#8377 90.20</p>
+                <p class="loss">-2.00 (2.17%)</p>
+            </div>
+
+            <div class="boxes" id="box2">
+                <img src="./stockImages/VODAFON.png" alt="" class="left-container-part2-img">
+                <p>Vodafone</p> <br>
+                <p>&#8377 15.85</p>
+                <p class="loss">-1.00 (2.17%)</p>
+            </div>
+            <div class="boxes" id="box3">
+                <img src="./stockImages/yesbank.png" alt="" class="left-container-part2-img">
+                <p>Yes Bank</p> <br>
+                <p>&#8377 25.10</p>
+                <p class="loss">-0.15 (0.59%)</p>
+            </div>
+            <div class="boxes" id="box4">
+                <img src="./stockImages/rewENERGY.jpg" alt="" class="left-container-part2-img">
+                <p>Indian Ren.</p> <br>
+                <p>&#8377 15.85</p>
+                <p class="profit">-1.00 (2.17%)</p>
+            </div>
+        </div>
+    </section>
+    <section class="top-loosers">
+        <div class="top-loosers-header">
+            <h2  style="font-size: large; margin-left: 30px;">Top Loosers</h2>
+        </div>
+        <div class="top-loosers-nav-bar" >
+            <a class="btn links">Large</a>
+            <a class="btn links">Mid</a>
+            <a class="btn links">Small</a>
+        </div>
+        <div class="top-loosers-content">
+            <div class="boxes" id="box1">
+                <img src="./stockImages/NHPC.png" alt="" class="left-container-part2-img">
+                <p>Nhpc</p> <br>
+                <p>&#8377 90.20</p>
+                <p class="loss">-2.00 (2.17%)</p>
+            </div>
+
+            <div class="boxes" id="box2">
+                <img src="./stockImages/VODAFON.png" alt="" class="left-container-part2-img">
+                <p>Vodafone</p> <br>
+                <p>&#8377 15.85</p>
+                <p class="loss">-1.00 (2.17%)</p>
+            </div>
+            <div class="boxes" id="box3">
+                <img src="./stockImages/yesbank.png" alt="" class="left-container-part2-img">
+                <p>Yes Bank</p> <br>
+                <p>&#8377 25.10</p>
+                <p class="loss">-0.15 (0.59%)</p>
+            </div>
+            <div class="boxes" id="box4">
+                <img src="./stockImages/rewENERGY.jpg" alt="" class="left-container-part2-img">
+                <p>Indian Ren.</p> <br>
+                <p>&#8377 15.85</p>
+                <p class="profit">-1.00 (2.17%)</p>
+            </div>
+        </div>
+    </section>
+    <section class="top-sectors">
+        <div class="top-sectors-header">
+            <h3 style="font-size: large; margin-left: 30px;">Top Sectors</h3>
+            <a href="#" style="text-decoration: none; color:black;">See More</a>
+        </div>
+        <div class="top-sectors-content" style="margin-left: 30px;">
+            <div class="boxes">
+                <a href="#">Banking</a>
+                <p class="to-be-green">37</p>
+            </div>
+            <div class="boxes">
+                <a href="#">Energy</a>
+                <p class="to-be-green">94</p>
+            </div>
+            <div class="boxes">
+                <a href="#">Healthcare</a>
+                <p class="to-be-green">216</p>
+            </div>
+            <div class="boxes">
+                <a href="#">FMCG</a>
+                <p class="to-be-green">215</p>
+            </div>
+            <div class="boxes">
+                <a href="#">AutoMobile</a>
+                <p class="to-be-green">130</p>
+            </div>
+            <div class="boxes">
+                <a href="#">Telecommunication</a>
+                <p class="to-be-green">144</p>
+            </div>
+            <div class="boxes">
+                <a href="#">Media &<br> Entertainment </a>
+                <p class="to-be-green">37</p>
+            </div>
+        </div>
+    </section>
+    <section class="market-caps">
+        <div class="market-caps-header">
+            <h3 style="margin-left: 30px;">Top by Market Cap</h3>
+            <a href="#" class="to-be-green">See More</a>
+        </div>
+        <div class="market-caps-content" style="margin-left: 30px;">
+            <div class="boxes">
+                <div class="part1">
+                    Company
+                </div>
+                <div class="part2">
+                    <p>Market Price</p>
+                    <p>WatchList</p>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="part1">
+                    <a href="#">Reliance Industries</a>
+
+                </div>
+                <div class="part2">
+                    <img src="./stockImages/graph.jpg" alt="" style="width: 4rem;">
+                </div>
+                <div class="part2">
+                    <div class="price-part">
+                        <p>&#8377 2935</p>
+                        <p class="to-be-green">23.95(0.79%)</p>
+                    </div>
+                    <div class="watchlist">
+                        <span class="material-symbols-outlined to-be-green">
+                            add_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="part1">
+                    <a href="#">Reliance Industries</a>
+
+                </div>
+                <div class="part2">
+                    <img src="./stockImages/graph.jpg" alt="" style="width: 4rem;">
+                </div>
+                <div class="part2">
+                    <div class="price-part">
+                        <p>&#8377 2935</p>
+                        <p class="to-be-green">23.95(0.79%)</p>
+                    </div>
+                    <div class="watchlist">
+                        <span class="material-symbols-outlined to-be-green">
+                            add_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="part1">
+                    <a href="#">Reliance Industries</a>
+
+                </div>
+                <div class="part2">
+                    <img src="./stockImages/graph.jpg" alt="" style="width: 4rem;">
+                </div>
+                <div class="part2">
+                    <div class="price-part">
+                        <p>&#8377 2935</p>
+                        <p class="to-be-green">23.95(0.79%)</p>
+                    </div>
+                    <div class="watchlist">
+                        <span class="material-symbols-outlined to-be-green">
+                            add_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="part1">
+                    <a href="#">Reliance Industries</a>
+
+                </div>
+                <div class="part2">
+                    <img src="./stockImages/graph.jpg" alt="" style="width: 4rem;">
+                </div>
+                <div class="part2">
+                    <div class="price-part">
+                        <p>&#8377 2935</p>
+                        <p class="to-be-green">23.95(0.79%)</p>
+                    </div>
+                    <div class="watchlist">
+                        <span class="material-symbols-outlined to-be-green">
+                            add_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="part1">
+                    <a href="#">Reliance Industries</a>
+
+                </div>
+                <div class="part2">
+                    <img src="./stockImages/graph.jpg" alt="" style="width: 4rem;">
+                </div>
+                <div class="part2">
+                    <div class="price-part">
+                        <p>&#8377 2935</p>
+                        <p class="to-be-green">23.95(0.79%)</p>
+                    </div>
+                    <div class="watchlist">
+                        <span class="material-symbols-outlined to-be-green">
+                            add_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="part1">
+                    <a href="#">Reliance Industries</a>
+
+                </div>
+                <div class="part2">
+                    <img src="./stockImages/graph.jpg" alt="" style="width: 4rem;">
+                </div>
+                <div class="part2">
+                    <div class="price-part">
+                        <p>&#8377 2935</p>
+                        <p class="to-be-green">23.95(0.79%)</p>
+                    </div>
+                    <div class="watchlist">
+                        <span class="material-symbols-outlined to-be-green">
+                            add_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="part1">
+                    <a href="#">Reliance Industries</a>
+
+                </div>
+                <div class="part2">
+                    <img src="./stockImages/graph.jpg" alt="" style="width: 4rem;">
+                </div>
+                <div class="part2">
+                    <div class="price-part">
+                        <p>&#8377 2935</p>
+                        <p class="to-be-green">23.95(0.79%)</p>
+                    </div>
+                    <div class="watchlist">
+                        <span class="material-symbols-outlined to-be-green">
+                            add_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="part1">
+                    <a href="#">Reliance Industries</a>
+
+                </div>
+                <div class="part2">
+                    <img src="./stockImages/graph.jpg" alt="" style="width: 4rem;">
+                </div>
+                <div class="part2">
+                    <div class="price-part">
+                        <p>&#8377 2935</p>
+                        <p class="to-be-green">23.95(0.79%)</p>
+                    </div>
+                    <div class="watchlist">
+                        <span class="material-symbols-outlined to-be-green">
+                            add_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="part1">
+                    <a href="#">Reliance Industries</a>
+
+                </div>
+                <div class="part2">
+                    <img src="./stockImages/graph.jpg" alt="" style="width: 4rem;">
+                </div>
+                <div class="part2">
+                    <div class="price-part">
+                        <p>&#8377 2935</p>
+                        <p class="to-be-green">23.95(0.79%)</p>
+                    </div>
+                    <div class="watchlist">
+                        <span class="material-symbols-outlined to-be-green">
+                            add_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-header">
+            <div class="box">
+                <img src="./images/Groww_app_logo.png" alt="">
+                <p style="word-spacing: .5rem;">Vaishnavi Tech Park, 3rd & 4th Floor
+
+                    Sarjapur Main Road, Bellandur
+
+                    Bengaluru-560103
+
+                    Contact Us</p>
+
+                <div class="icons">
+                    <a href="#"><img src="./footer-icons/fb.jpg" alt=""></a>
+                    <a href="#"><img src="./footer-icons/insta.jpg" alt=""></a>
+                    <a href="#"><img src="./footer-icons/linkdin.png" alt=""></a>
+                    <a href="#"><img src="./footer-icons/telegram.jpg" alt=""></a>
+                    <a href="#"><img src="./footer-icons/yt.png" alt=""></a>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Products</h2>
+                <a href="#">Stocks</a>
+                <a href="#">Future & Options</a>
+                <a href="#">IPO</a>
+                <a href="#">Mutul Funds</a>
+            </div>
+            <div class="box">
+                <h2>Groww</h2>
+                <a href="#">About Us</a>
+                <a href="#">Pricing</a>
+                <a href="#">Blog</a>
+                <a href="#">Media & Press</a>
+                <a href="#">careers</a>
+                <a href="#">Health and Support</a>
+                <a href="#">Trust and Safety</a>
+            </div>
+            <div class="box">
+                <h2>Quick Links</h2>
+                <a href="#">AMC Mtutul Funds</a>
+                <a href="#">Calculators</a>
+                <a href="#">Glossary</a>
+                <a href="#">Open Demat Account</a>
+                <a href="#">Groww Digest</a>
+                <a href="#">Site Map</a>
+            </div>
+        </div> 
+    </section>
+    <footer class="main-footer">
+        <div class="main-footer-content">
+            <p style="font-size: 1.4rem;">&copy; 2016-2024 Groww. All rights reserved, Built with &hearts; in India.</p>
+        <div class="main-footer-icons">
+            <a href="#"><img src="./download-icons/appstore.png" alt=""></a>
+        <a href="#"><img src="./download-icons/playstore.png" alt=""></a>
+        </div>
+        </div>
+        
+    </footer>
+</body>
+
+</html>

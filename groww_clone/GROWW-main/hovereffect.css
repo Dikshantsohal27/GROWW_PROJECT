@@ -1,0 +1,36 @@
+ .grow_loginregister button:hover{
+    background-color: #04c595;
+} 
+
+/***our product hover effect*****/
+.growproduct_stockdetails:hover svg{
+    filter : brightness();
+    background-color: #e5faf5;
+}
+.growproduct_mutualfundsdetails:hover svg{
+    filter: brightness();
+    background-color: #eef0ff;
+    
+}
+.growproduct_usstocksdetails:hover svg{
+    filter:brightness();
+    background-color: #fae9e5;
+    
+}
+.growproduct_fds:hover svg{
+    filter:brightness();
+    background-color: #fae9e5;
+
+}
+.viewallproduct_container .text:hover{
+    text-decoration: underline;
+}
+/***********************/
+.growlearningimage img:hover{
+    opacity: 0.5;
+}
+.applist:hover{
+    transform: skew(5deg,5deg);
+    cursor:pointer;
+    transition: 1s;
+}
